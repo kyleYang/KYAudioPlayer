@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70799F21BF4812A000D75C8 /* KYAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70799F11BF4812A000D75C8 /* KYAudioPlayer.swift */; };
+		C70799FA1BF59649000D75C8 /* KYAudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70799F91BF59649000D75C8 /* KYAudioPlayerView.swift */; };
+		C70799FC1BF59680000D75C8 /* KYAudioPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70799FB1BF59680000D75C8 /* KYAudioPlayerControlView.swift */; };
+		C70799FE1BF596BB000D75C8 /* KYAudioPlayerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70799FD1BF596BB000D75C8 /* KYAudioPlayerLayout.swift */; };
+		C7079A001BF59782000D75C8 /* KYAudioPlayerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70799FF1BF59782000D75C8 /* KYAudioPlayerTypes.swift */; };
+		C720B7B61C043E1000836F57 /* YGRadioLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C720B7B51C043E1000836F57 /* YGRadioLayout.swift */; };
+		C75BCA761BFC5D3800BF77DD /* KYAudioScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BCA751BFC5D3800BF77DD /* KYAudioScrubber.swift */; };
+		C75BCA781BFC961B00BF77DD /* NSTimeInterval+KYAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75BCA771BFC961B00BF77DD /* NSTimeInterval+KYAudioPlayer.swift */; };
 		C7C192571BF4789A001E82D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C192561BF4789A001E82D6 /* AppDelegate.swift */; };
 		C7C192591BF4789A001E82D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C192581BF4789A001E82D6 /* ViewController.swift */; };
 		C7C1925C1BF4789B001E82D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C1925A1BF4789B001E82D6 /* Main.storyboard */; };
 		C7C1925E1BF4789C001E82D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C1925D1BF4789C001E82D6 /* Assets.xcassets */; };
 		C7C192611BF4789C001E82D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C1925F1BF4789C001E82D6 /* LaunchScreen.storyboard */; };
 		C7C1926C1BF4789E001E82D6 /* KYAudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C1926B1BF4789E001E82D6 /* KYAudioPlayerUITests.swift */; };
+		C7C192781BF478EA001E82D6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C192771BF478EA001E82D6 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C70799F11BF4812A000D75C8 /* KYAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAudioPlayer.swift; sourceTree = "<group>"; };
+		C70799F91BF59649000D75C8 /* KYAudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAudioPlayerView.swift; sourceTree = "<group>"; };
+		C70799FB1BF59680000D75C8 /* KYAudioPlayerControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAudioPlayerControlView.swift; sourceTree = "<group>"; };
+		C70799FD1BF596BB000D75C8 /* KYAudioPlayerLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAudioPlayerLayout.swift; sourceTree = "<group>"; };
+		C70799FF1BF59782000D75C8 /* KYAudioPlayerTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAudioPlayerTypes.swift; sourceTree = "<group>"; };
+		C720B7B51C043E1000836F57 /* YGRadioLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YGRadioLayout.swift; sourceTree = "<group>"; };
+		C75BCA751BFC5D3800BF77DD /* KYAudioScrubber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAudioScrubber.swift; sourceTree = "<group>"; };
+		C75BCA771BFC961B00BF77DD /* NSTimeInterval+KYAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimeInterval+KYAudioPlayer.swift"; sourceTree = "<group>"; };
 		C7C192531BF47899001E82D6 /* KYAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C192561BF4789A001E82D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7C192581BF4789A001E82D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +53,7 @@
 		C7C192671BF4789D001E82D6 /* KYAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C1926B1BF4789E001E82D6 /* KYAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYAudioPlayerUITests.swift; sourceTree = "<group>"; };
 		C7C1926D1BF4789E001E82D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7C192771BF478EA001E82D6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C192781BF478EA001E82D6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +96,15 @@
 		C7C192551BF4789A001E82D6 /* KYAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C7C192761BF478DA001E82D6 /* Player */,
+				C7C192791BF47919001E82D6 /* framwork */,
 				C7C192561BF4789A001E82D6 /* AppDelegate.swift */,
 				C7C192581BF4789A001E82D6 /* ViewController.swift */,
 				C7C1925A1BF4789B001E82D6 /* Main.storyboard */,
 				C7C1925D1BF4789C001E82D6 /* Assets.xcassets */,
 				C7C1925F1BF4789C001E82D6 /* LaunchScreen.storyboard */,
 				C7C192621BF4789C001E82D6 /* Info.plist */,
+				C720B7B51C043E1000836F57 /* YGRadioLayout.swift */,
 			);
 			path = KYAudioPlayer;
 			sourceTree = "<group>";
@@ -94,6 +116,28 @@
 				C7C1926D1BF4789E001E82D6 /* Info.plist */,
 			);
 			path = KYAudioPlayerUITests;
+			sourceTree = "<group>";
+		};
+		C7C192761BF478DA001E82D6 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C70799F11BF4812A000D75C8 /* KYAudioPlayer.swift */,
+				C70799F91BF59649000D75C8 /* KYAudioPlayerView.swift */,
+				C70799FB1BF59680000D75C8 /* KYAudioPlayerControlView.swift */,
+				C70799FD1BF596BB000D75C8 /* KYAudioPlayerLayout.swift */,
+				C70799FF1BF59782000D75C8 /* KYAudioPlayerTypes.swift */,
+				C75BCA751BFC5D3800BF77DD /* KYAudioScrubber.swift */,
+				C75BCA771BFC961B00BF77DD /* NSTimeInterval+KYAudioPlayer.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		C7C192791BF47919001E82D6 /* framwork */ = {
+			isa = PBXGroup;
+			children = (
+				C7C192771BF478EA001E82D6 /* AVFoundation.framework */,
+			);
+			name = framwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,8 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70799FA1BF59649000D75C8 /* KYAudioPlayerView.swift in Sources */,
+				C70799FE1BF596BB000D75C8 /* KYAudioPlayerLayout.swift in Sources */,
+				C75BCA781BFC961B00BF77DD /* NSTimeInterval+KYAudioPlayer.swift in Sources */,
 				C7C192591BF4789A001E82D6 /* ViewController.swift in Sources */,
+				C70799F21BF4812A000D75C8 /* KYAudioPlayer.swift in Sources */,
+				C70799FC1BF59680000D75C8 /* KYAudioPlayerControlView.swift in Sources */,
 				C7C192571BF4789A001E82D6 /* AppDelegate.swift in Sources */,
+				C75BCA761BFC5D3800BF77DD /* KYAudioScrubber.swift in Sources */,
+				C7079A001BF59782000D75C8 /* KYAudioPlayerTypes.swift in Sources */,
+				C720B7B61C043E1000836F57 /* YGRadioLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +440,7 @@
 				C7C192721BF4789E001E82D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7C192731BF4789E001E82D6 /* Build configuration list for PBXNativeTarget "KYAudioPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +449,7 @@
 				C7C192751BF4789E001E82D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
